@@ -18,9 +18,6 @@ website:    http://www.themepunch.com
   z-index:100;
     border-radius:50%;
 }
-.ares.p{
-	cursor:pointer;
-}
 .ares.tparrows:hover {
 }
 .ares.tparrows:before {
