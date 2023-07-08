@@ -1,5 +1,11 @@
 <?php  
-
+session_start(); 
+if(isset($_SESSION['admin_sid']) || isset($_SESSION['customer_sid']))
+{
+	header("location:index.php");
+}
+else{
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
